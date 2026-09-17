@@ -7,12 +7,12 @@
 ```text
 GMTSAR-DInSAR-workflows/
 ├── README.md
-├── LT1/                 # 当前 LT-1 两景 DInSAR 脚本
+├── LT1-DInSAR-batch-processing/  # 当前 LT-1 两景 DInSAR 脚本
 ├── Sentinel1/           # 后续可添加
 └── GF3/                 # 后续可添加
 ```
 
-当前 LT-1 流程请进入 `LT1/` 目录后，在独立的升轨或降轨数据目录中运行。
+当前 LT-1 流程请进入 `LT1-DInSAR-batch-processing/` 目录后，在独立的升轨或降轨数据目录中运行。
 
 ---
 
@@ -393,10 +393,11 @@ los_ll_detrend_comparison.png
 
 ## English Documentation
 
-This repository currently provides the LT-1 workflow under `LT1/`. Enter that
-directory before running the scripts from an independent ascending or
-descending track directory. Additional satellite-specific workflows can be
-added as sibling directories such as `Sentinel1/` and `GF3/`.
+This repository currently provides the LT-1 workflow under
+`LT1-DInSAR-batch-processing/`. Enter that directory before running the scripts
+from an independent ascending or descending track directory. Additional
+satellite-specific workflows can be added as sibling directories such as
+`Sentinel1/` and `GF3/`.
 
 A command-line workflow for processing one LT-1 Stripmap SLC pair with
 [GMTSAR](https://github.com/gmtsar/gmtsar). It covers archive extraction, SLC
